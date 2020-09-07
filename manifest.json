@@ -25,9 +25,9 @@
     ],
     "js": ["content.js"]
   }],
-  "icons": { "16": "icon_c_16.png",
-           "48": "icon_c_48.png",
-          "128": "icon_c_128.png" },
+  "icons": { "16": "icon_16.png",
+           "48": "icon_48.png",
+          "128": "icon_128.png" },
   "browser_action": {
     "default_title": "Noiszy",
     "default_popup": "options.html"

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="36.000004"
+   inkscape:export-xdpi="36.000004"
+   inkscape:export-filename="/home/john/uncompiled/datafaux/Icon_48.png"
+   width="128"
+   height="128"
+   viewBox="0 0 33.866666 33.866668"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (1.0+r73+1)"
+   sodipodi:docname="Icon.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="60.680367"
+     inkscape:cy="69.70359"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g906"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:window-width="956"
+     inkscape:window-height="1052"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g906"
+     inkscape:groupmode="layer"
+     inkscape:label="Background circle"
+     style="display:inline">
+    <circle
+       r="16.668982"
+       cy="16.933332"
+       cx="16.933334"
+       id="circle902"
+       style="fill:#f5ffff;stroke:none;stroke-width:0.528703;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1" />
+  </g>
+  <g
+     style="display:inline"
+     inkscape:label="Tracker Icon"
+     id="layer2"
+     inkscape:groupmode="layer">
+    <path
+       style="fill:none;stroke:#00dd00;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 23.132373,8.5844793 17.692825,26.278305"
+       id="path870-7" />
+    <path
+       id="path870"
+       d="M 9.9052898,9.8416195 18.024304,26.477178"
+       style="fill:none;stroke:#00dd00;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <circle
+       r="3.5697536"
+       cy="10.01501"
+       cx="9.7640076"
+       id="path841"
+       style="fill:#0000ff;fill-opacity:1;stroke:#00dd00;stroke-width:0.797992;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <circle
+       style="fill:#0000ff;fill-opacity:1;stroke:#00dd00;stroke-width:0.798021;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path841-3"
+       cx="17.885798"
+       cy="24.792782"
+       r="3.5697393" />
+    <circle
+       r="3.5697393"
+       cy="9.7810831"
+       cx="23.376825"
+       id="path841-3-6"
+       style="fill:#0000ff;fill-opacity:1;stroke:#00dd00;stroke-width:0.79802;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     style="display:inline"
+     inkscape:label="Not symbol"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:none;stroke:#ff0000;stroke-width:0.528703;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path869"
+       cx="16.933334"
+       cy="16.933332"
+       r="16.668982" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 5.0191079,28.51404 29.193188,5.6524802"
+       id="path873" />
+  </g>
+</svg>
