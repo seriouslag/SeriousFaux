@@ -1,7 +1,7 @@
 {
-  "name": "Noiszy",
-  "description": "They're listening. Make some noise.",
-  "version": "2.0",
+  "name": "DataFaux",
+  "description": "Help confuse tracking websites by making fake pageclicks!",
+  "version": "1.0",
   "permissions": [
     "alarms",
     "activeTab",
@@ -10,7 +10,7 @@
     "*://*/*",
     "https://*/*"
 ],
-  "content_security_policy": "script-src 'self' https://www.google-analytics.com; object-src 'self'",
+  "content_security_policy": "script-src 'self'; object-src 'self'",
   "background": {
     "scripts": [
       "json.js",
