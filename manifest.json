@@ -1,37 +1,38 @@
 {
-  "name": "DataFaux",
-  "description": "Help confuse tracking websites by making fake pageclicks!",
-  "version": "1.0",
-  "permissions": [
-    "alarms",
-    "activeTab",
-    "storage",
-    "webNavigation", 
-    "*://*/*",
-    "https://*/*"
-],
-  "content_security_policy": "script-src 'self'; object-src 'self'",
-  "background": {
-    "scripts": [
-      "json.js",
-      "background.js"
+    "name": "DataFaux",
+    "description": "Help confuse tracking websites by making fake pageclicks!",
+    "version": "1.0",
+    "permissions": [
+        "alarms",
+        "activeTab",
+        "storage",
+        "webNavigation", 
+        "*://*/*",
+        "https://*/*"
     ],
-    "persistent": true
-  },
-  "content_scripts": [{
-    "matches": [
-      "http://*/*",
-      "https://*/*"
-    ],
-    "js": ["content.js"]
-  }],
-  "icons": { "16": "icon_16.png",
-           "48": "icon_48.png",
-          "128": "icon_128.png" },
-  "browser_action": {
-    "default_title": "Noiszy",
-    "default_popup": "options.html"
-  },
-  "options_page": "options.html",
-  "manifest_version": 2
-}
+    "content_security_policy": "script-src 'self'; object-src 'self'",
+    "background": {
+        "scripts": [
+            "json.js",
+            "background.js"
+        ],
+        "persistent": true
+    },
+    "content_scripts": [{
+        "matches": [
+            "http://*/*",
+            "https://*/*"
+        ],
+        "js": ["content.js"]
+        }],
+        "icons": { "16": "icon_16.png",
+            "48": "icon_48.png",
+            "128": "icon_128.png" },
+            "browser_action": {
+                "default_title": "Noiszy",
+                "default_popup": "options.html"
+            },
+            "options_page": "options.html",
+            "manifest_version": 2
+        }
+        

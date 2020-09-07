@@ -1,11 +1,10 @@
 # DataFaux
 
-DataFaux is a plugin that creates meaningless web data by navigating your browser randomly around a list of sites, to confound tracking & personalization algorithms and burst filter bubbles.
+DataFaux is a plugin goes to random websites to confuse trackers. It will randomly click on links on these websites to convince the website that you're clicking on the links and confuse their date.
 
-This project is based on the project Noiszy, which is no longer actively maintained. Learn more about that project at [noiszy.com](https://noiszy.com/) and the [Noiszy blog](https://noiszy.com/blog/).
-
-I wanted to keep the project going and hopefully make a few changes to the project. Here we go!
+This project is based on the project Noiszy, which is no longer actively maintained. Learn more about the original project at [noiszy.com](https://noiszy.com/) and the [Noiszy blog](https://noiszy.com/blog/).
 
 ## Changes from Noiszy:
 - Removed Google Analytics
 - Rebranded to DataFaux
+- Cleaned up the text
