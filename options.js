@@ -1,4 +1,3 @@
-// track in GA when this page is opened/created
 
 chrome.runtime.sendMessage({
   msg: "track options open"

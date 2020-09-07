@@ -1,21 +1,5 @@
-// track in GA when this page is created
-// it's persistent, so it will only happne once
-
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-96120302-2', 'auto');
-ga('set', 'checkProtocolTask', function(){}); // Removes failing protocol check. @see: http://stackoverflow.com/a/22152353/1958200
-ga('set', 'forceSSL', true);
-// suppress pageview.  We're only tracking options views & plugin clicks.
-//ga('send', 'pageview');
-
-
 function track_clicked_link(link) {
     console.log('tracking this link:\n',link);
-    ga('send','pageview',link);
 }
 
 
@@ -86,8 +70,6 @@ function open_new_site() {
         // in case we want to put anything here...
       });
 
-      // GA tracking
-      ga('send','pageview',new_url);
 
     });
   });
@@ -100,7 +82,6 @@ chrome.alarms.onAlarm.addListener(function(alarm) {
   
   chrome.storage.local.get('enabled', function(result){
     var enabled = result.enabled;
-//    console.log("enabled", enabled);
 
     if (enabled == "Enabled" || enabled == "Running") {
     
@@ -139,7 +120,6 @@ chrome.alarms.onAlarm.addListener(function(alarm) {
                 } else {
                   // track the link
                   console.log('tracking this link:',response);
-                  ga('send','pageview',response);
                 }
               });
 
@@ -219,12 +199,9 @@ chrome.runtime.onMessage.addListener( function(request, sender, sendResponse) {
 
   } else if (request.msg == "track add site") {
     console.log("request", request);
-    ga('send','event','add site',request.added);
   } else if (request.msg == "track options open") {
     console.log("request", request);
-    ga('send','pageview','options.html');
   } else if (request.msg == "track link click") {
-    ga('send','pageview',request.url);
   } else if (request.msg == "reset") {
     initialize_noiszy(false, function(results){
       sendResponse(results);

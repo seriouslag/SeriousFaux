@@ -6,4 +6,4 @@ This project is based on the project Noiszy, which is no longer actively maintai
 
 I wanted to keep the project going and hopefully make a few changes to the project. Here we go!
 
-I'm planning on removing the Google Analytics snippits put here by the origional creator.
+I've removed the Google Analytics snippits put here by the origional creator. If you find any, including and `ga()` method calls, remove them!
