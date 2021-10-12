@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Noiszy Options</title>
+    <title>SeriousFaux Options</title>
     <style>
         body {
             background-color: white;
@@ -26,11 +26,6 @@
             font-weight: bold;
         }
         
-        h2 {
-            //    color: maroon;
-            //    margin-left: 40px;
-        } 
-        
         #sites_wrapper {
             width: 100%;
             padding: 0px 0px 0px 0px;
@@ -38,9 +33,6 @@
             border-top-style: solid;
             border-top-color: #BBBBBB; 
             border-top-width: 1px;
-            //  border-bottom-style: solid;
-            //  border-bottom-color: #BBBBBB; 
-            //  border-bottom-width: 1px;
         }
         
         #default_sites_wrapper {
@@ -57,7 +49,7 @@
             float: left;
             width: 65%;
             padding: 0px 0px 0px 10px;
-            margin: 0px 0px 0px 10px
+            margin: 0px 0px 0px 10px;
             border-left-style: solid;
             border-left-color: #BBBBBB; 
             border-left-width: 1px;
@@ -122,19 +114,12 @@
             margin-left: 16px;
         }
         
-        .site {
-            //
-        }
-        
         .full-width-text {
             width: 100%;
             font-size: 12px;
             font-family: Arial, Helvetica, sans-serif;  
             padding: 10px 0px 10px 0px;
             margin: 10px 0px 0px 0px;
-            //  border-bottom-style: solid;
-            //  border-bottom-color: #BBBBBB; 
-            //  border-bottom-width: 1px;
         }
         
         .section {
@@ -160,7 +145,7 @@
         
         .alerts {
             background-color: bisque;
-            paddding: 4px 4px 4px 4px;
+            padding: 4px 4px 4px 4px;
             margin: 4px 0px 4px 0px;
         }
         
@@ -173,20 +158,21 @@
         
         <div id="branding_wrapper">
             <img src="icon_48.png" style="float: left;">
-            <span class="name">DataFaux</span><br>
+            <span class="name">SeriousFaux</span><br>
             <span class="tagline">Help confuse tracking websites by making fake pageclicks!</span>
             
             <div style='clear:both'></div>
         </div>
         
         <div id="explanation" class="full-width-text section">
-            Noiszy <a href="https://noiszy.com/noiszys-algorithm/">navigates pseudo-randomly</a> around websites, to create a cloud of meaningless and misleading data.
             Enable, disable, and customize sites below, then click "<a href="#" id="start_link">Start</a>" to make some noise.
         </div>
         
         <div id="link_exploder_wrapper" class="section top-bottom-padding">
             <input type="checkbox" id="explode_links">
             <label for="explode_links">Explode links</label>
+            <input type="number" id="linkChangeInterval">
+            <label for="linkChangeInterval">Link change interval</label>
         </div>
         
         <div id="status_wrapper" class="section top-bottom-padding">
@@ -221,7 +207,7 @@
             
             <div id="user_sites_wrapper">
                 <div class="var_width_text">
-                    DataFaux can cause unexpected results. DataFaux's algorithm may disrupt a useful recommendation engine or click a "Buy Now" button. DataFaux can't be held liable for the links it clicks, so add sites thoughtfully.  <a href="https://noiszy.com/choosing-sites/">Learn more</a>
+                    SeriousFaux can cause unexpected results. SeriousFaux's algorithm may disrupt a useful recommendation engine or click a "Buy Now" button. SeriousFaux can't be held liable for the links it clicks, so add sites thoughtfully.
                 </div>
                 <h2>User-added sites</h2>
                 <div id="user_site_alerts" class="alerts"></div>

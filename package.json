@@ -1,0 +1,23 @@
+{
+  "name": "seriousfaux",
+  "version": "1.0.0",
+  "description": "SeriousFaux is a plugin goes to random websites to confuse trackers. It will randomly click on links on these websites to convince the website that you're clicking on the links and confuse their advertising networks.",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seriouslag/seriousfaux.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seriouslag/seriousfaux/issues"
+  },
+  "homepage": "https://github.com/seriouslag/seriousfaux#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
